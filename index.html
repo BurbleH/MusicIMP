@@ -1,40 +1,138 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+	<title>reveal.js</title>
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/black.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	<style>
+
+	</style>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section data-background-color="indigo">
+				<h1>Counterpoint</h1>
+				<p>An exploration of music</p>
+			</section>
+			<section data-background-color="orange">
+				<section>
+					<h2 data-fragment-index="1">What counterpoint is (on a basic level)
+					</h2>
+					<p class="fragment fade-up" data-fragment-index="1">Counterpoint is the way two voices intertwine to
+						sound "nice". To make music that has counterpoint, you need a point as well.</p>
+					<small class="fragment fade-right" data-fragment-index="1">P.S. For more in depth information on
+						each slide, click the down arrow (although it isn't necessary to do so to learn about
+						counterpoint)</small>
+				</section>
+				<section>
+					<h3>Roots of counterpoint</h3>
+					<img class="r-stretch" src="https://upload.wikimedia.org/wikipedia/commons/1/15/Graduale_Aboense_2.jpg" />
+					<small>
+						Counterpoint originates in the 9th century,
+						starting with the Gregorian Chant, a religious song that
+						would be similar to the Cantus Firmi that I'll get into later.
+					</small>
+				</section>
+				<section>
+					<img class="r-stretch" align="center"
+						src="https://upload.wikimedia.org/wikipedia/commons/3/34/Johann_Joseph_Fux.jpg" />
+					<small>The real blossuming of counterpoint was when Johan
+						Fux published his book "Gradus ad Parnassum" which
+						revolutionized counterpoint through polyphony. It is so integral to music as a
+						whole that even if you have
+						never listened to classical music, you likely hear it every
+						day. TAKE THAT Pop music! If you listen to voices (which don't have to be vocal)
+						that combine and have conflict, you've listened to counterpoint.
+					</small>
+
+				</section>
+			</section>
+			<section data-background-color="#6794e6">
+				<section>
+					<h2>The Point</h2>
+						<small>
+							For the 
+							"point" of the counterpoint I did and the
+							counterpoint you'll hear about here, I 
+							used something called a Cantus Firmus,
+							which is a simple melody that uses no
+							dynamics (changes in volume), rhythm, 
+							and follows a strict set of rules (you can learn more below).
+							<br>If you were to visualize one of the ones I wrote, it would look something like this (this is an actual Cantus Firmus, the dots represent notes):
+
+						</small>
+						<img src="chart (1).png" class="r-stretch">
+				</section>
+				<section>
+					<h2>How Cantus Firmi work</h2>
+					<small>A Cantus Firmus is
+						a simple line of whole
+						notes that is useful for
+						learning counterpoint. The
+						reason that someone learns
+						how to do Cantus Firmi is so
+						that you learn about what all
+						music is based on, dating back
+						to the Gregorian chants I talked
+						about in the "Roots of Counterpoint" section.
+					</small>
+				</section>
+				<section>
+					<h2>Cantus Firmi 101</h2>
+					<p>clearly the most useful skill ever, that you will definately use every day, especially if you don't write music</p>
+					<small>
+						How to write Cantus Firmi, a step by step guide:<br>
+						<ol>
+							<li>Chose a key (A minor, D major etc.)</li>
+							<li>Write the tonic of that key (F for F major, G for G minor, etc.) as the first note</li>
+							<li>Write notes after that that follow the rules of Cantus Firmi:
+								<ul>
+									<li>5ths and octaves are called perfect intervals</li>
+									<li>No jumping by 4ths, 4ths are nasty</li>
+									<li>Use perfect intervals sparingly</li>
+									<li>have at least one step (not leap) in between leaps</li>
+									<li>Use leaps, like perfect intervals, sparingly</li>
+									<li>Approach the end with steps and leave the first note by steps</li>
+								</ul>
+							</li>
+						</ol>
+						<br>
+					
+					</small>
+				</section>
+			</section>
+			<section data-background-color="coral">
+				<h2>The Counterpoint</h2>
+			</section>
+
 		</div>
+	</div>
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight]
+		});
+	</script>
+</body>
+
 </html>
